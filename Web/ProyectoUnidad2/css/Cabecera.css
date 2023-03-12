@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera{
+    color: white;
+    background-color: rgb(24, 24, 27);
+
+    
+}
+
+.contenedorCabecera-Grid{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 150px;
+}
+
+#CTitulo{
+    padding-left:40px ;
+    padding-right: 40px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.Barranav {
+    background-color: #333;
+    color: #fff;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+    
+  
+  .cabeceralistcont {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabeceralistcontLa {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    transition: all 0.2s ease-in-out;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  nav a:before, nav a:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:before {
+    left: -10px;
+  }
+  
+  nav a:after {
+    right: -10px;
+  }
+  
+  nav a:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+  }
+  
+  nav a:hover:before {
+    left: 0;
+  }
+  
+  nav a:hover:after {
+    right: 0;
+  }

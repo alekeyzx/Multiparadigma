@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Cabecera.css">
+    <link rel="stylesheet" href="./css/Princiapal.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    
+    <title>Unidad 2</title>
+</head>
+<body>
+    <header>
+        <div class="contenedorCabecera-Grid" id="cabecera">
+            <div id="Clogotec">
+                <img src="./imagenesDocumento/logotec.png" alt="" class="logos">
+            </div>
+            <div id="CTitulo" >
+                <h1>
+                Unidad 2
+                </h1>
+                    <h2>programacion web</h2>
+            </div>
+           <div id="Clogoisc">
+                <img src="./imagenesDocumento/logoisc.png" alt="" class="logos">
+           </div>
+        </div> 
+    </header>
+    <nav class="Barranav">
+        <ul class="cabeceralistcont">
+            <li class="cabeceralistcontLa"><a href="./imagen.html" class="cabeceraLink">Mapa</a></li>
+            <li class="cabeceralistcontLa"><a href="./index.html" class="cabeceraLink">Inicio</a></li>
+            <li class="cabeceralistcontLa"><a href="./Ejercicioxml.xml" class="cabeceraLink">XML</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contenedorMain-Grid">
+            <div></div>
+            <div id="ContenedorFormulario-grid">
+                <form action="">
+                  <div class="ContenedorDatos">
+                    <h2 class="TituloCont">Datos usuario</h2>
+
+                    <label for="inpNombre">Nombre de usuario:</label>
+                    <br>
+                    <input type="text" name="inpNombre" id="">
+                    <br>
+                    <label for="inpContraseña">Contraseña de usuario:</label>
+                    <br>
+                    <input type="password" name="inpContraseña" id="">
+                    
+                  </div>
+
+                  <div class="ContenedorDatos">
+                    <h2 class="TituloCont">Datos trabajo</h2>
+                    <label for="inpPuesto">Puesto:</label>
+                    <br>
+                    <input type="radio" name="inpPuesto" id="">Jefe
+                    <input type="radio" name="inpPuesto" id="">Psicologo
+                    <input type="radio" name="inpPuesto" id="">Otro
+
+                    <br>
+
+                    <label for="inpLocal">Local:</label>
+                    <br>
+                    <select name="Local" id="">
+                        <option value="p1">Infonavit</option>
+                        <option value="p2">Las torres</option>
+                        <option value="p3">Los fresnos</option>
+                        <option value="p4">La fe</option>
+                    </select>
+                  </div>
+
+                  <div class="ContenedorDatos">
+                    <h2 class="TituloCont">Datos Medicos</h2>
+
+                    <label for="inpTieneSeguro">¿Tiene seguro social?</label>
+                    <br>
+                    <input type="checkbox" name="inpTieneSeguro" id=""> Si
+                    <br>
+                    <label for="inpContraseña">Numero de seguro social</label>
+                    <br>
+                    <input type="text" name="inpContraseña" id="">
+                    <br>
+                    <label for="enfermedades">Enfermedades</label>
+                    <br>
+                    <textarea name="enfermedades" id="" cols="110" rows="10"></textarea>
+                    
+                  </div>
+                
+                  <div >
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Restablecer</button>
+                    
+                  </div>
+                </form>
+    
+    
+            </div>
+            <div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

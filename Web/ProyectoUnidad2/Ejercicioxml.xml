@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejemplo.css"?>
+<note>
+    <to>Jose</to>
+    <from>Alicia</from>
+    <hading>Recortatorio</hading>
+    <body>
+        No me olvides esta semana!
+    </body>
+</note>

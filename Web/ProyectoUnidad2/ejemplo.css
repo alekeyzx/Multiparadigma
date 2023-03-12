@@ -1,0 +1,57 @@
+
+note{
+    height: 200px;
+    width: 200px;
+    
+    display: block;
+    box-sizing: border-box;
+    padding: 100px;
+    
+}
+to{
+    color:white;
+    text-align: center;
+    height: 20px;
+    width: 300px;
+    background-color: yellowgreen;
+    display: block;
+    border-bottom: 2px;
+    border-color: black;
+    border-bottom-style :solid;
+    padding: 10px;
+}
+from{
+    color:white;
+    padding: 10px;
+    text-align: center;
+    height: 20px;
+    width: 300px;
+    background-color: yellowgreen;
+    display: block;
+    border-bottom: 2px;
+    border-color: black;
+    border-bottom-style :solid;
+}
+body{
+    color:white;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    display: block;
+    border-bottom: 1px;
+    border-color: black;
+    border-style :solid;  
+}
+hading{
+    color:white;
+    padding: 10px;
+    text-align: center;
+    height: 20px;
+    width: 300px;
+    background-color: yellowgreen;
+    display: block;
+    
+}
